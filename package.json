@@ -1,5 +1,5 @@
 {
-  "name": "candyUI",
+  "name": "candy-ui",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
