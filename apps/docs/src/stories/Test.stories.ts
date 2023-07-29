@@ -1,11 +1,11 @@
-import type { Meta, StoryObj } from '@storybook/vue3';
+import type { Meta, StoryObj } from "@storybook/vue3";
 
-import Test from 'ui/components/Test.vue';
+import Test from "ui/src/components/Test.vue";
 
 const meta: Meta = {
-  title: 'Example/Test',
+  title: "Example/Test",
   component: Test,
-  tags: ['autodocs'],
+  tags: ["autodocs"],
   argTypes: {},
   args: {},
 };

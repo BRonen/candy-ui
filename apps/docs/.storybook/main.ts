@@ -2,9 +2,10 @@ import type { StorybookConfig } from "@storybook/vue3-vite";
 
 import { join, dirname } from "path";
 
-const getAbsolutePath = (value: string) => dirname(
-  require.resolve(join(value, "package.json"))
-) as "@storybook/vue3-vite";
+const getAbsolutePath = (value: string) =>
+  dirname(
+    require.resolve(join(value, "package.json"))
+  ) as "@storybook/vue3-vite";
 
 const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.ts"],

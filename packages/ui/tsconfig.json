@@ -1,5 +1,9 @@
 {
   "extends": "tsconfig/base.json",
-  "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "outDir": "./dist",
+    "moduleResolution": "node",
+  },
+  "include": ["src"]
 }

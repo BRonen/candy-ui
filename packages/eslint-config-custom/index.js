@@ -13,6 +13,7 @@ module.exports = {
       rootDir: ["apps/*/", "packages/*/"],
     },
   },
+  ignorePatterns: ["**/*/dist/"],
   rules: {
     "@typescript-eslint/no-explicit-any": "off"
   },

@@ -1,46 +1,45 @@
-import type { Meta, StoryObj } from '@storybook/vue3';
+import type { Meta, StoryObj } from "@storybook/vue3";
 
-import Button from 'ui/components/Button.vue';
+import Button from "ui/src/components/Button.vue";
 
 const meta: Meta = {
-  title: 'Example/Button',
+  title: "Example/Button",
   component: Button,
-  tags: ['autodocs'],
+  tags: ["autodocs"],
   argTypes: {
-    size: { control: 'select', options: ['small', 'medium', 'large'] },
-    backgroundColor: { control: 'color' },
-    onClick: { action: 'clicked' },
+    size: { control: "select", options: ["small", "medium", "large"] },
+    backgroundColor: { control: "color" },
+    onClick: { action: "clicked" },
   },
   args: { primary: false },
 };
 
 export default meta;
 
-
 export const Primary: StoryObj<typeof meta> = {
   args: {
     primary: true,
-    label: 'Button',
+    label: "Button",
   },
 };
 
 export const Secondary: StoryObj<typeof meta> = {
   args: {
     primary: false,
-    label: 'Button',
+    label: "Button",
   },
 };
 
 export const Large: StoryObj<typeof meta> = {
   args: {
-    label: 'Button',
-    size: 'large',
+    label: "Button",
+    size: "large",
   },
 };
 
 export const Small: StoryObj<typeof meta> = {
   args: {
-    label: 'Button',
-    size: 'small',
+    label: "Button",
+    size: "small",
   },
 };
