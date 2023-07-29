@@ -1,8 +1,9 @@
 {
   "name": "@bronen/candy-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "type": "module",
+  "homepage": "https://candy-ui-docs.vercel.app/",
   "repository": "https://github.com/BRonen/candy-ui",
   "author": "Brenno Rodrigues <brennopereira6@gmail.com>",
   "files": [
