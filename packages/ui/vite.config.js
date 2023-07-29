@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      name: 'ui',
+      name: '@bronen/candy-ui',
       formats: ['es'],
       entry: resolve(__dirname, 'src/index.ts'),
       fileName: "index",

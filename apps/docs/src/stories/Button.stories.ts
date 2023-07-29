@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/vue3";
 
-import Button from "ui/src/components/Button.vue";
+import Button from "@bronen/candy-ui/src/components/Button.vue";
 
 const meta: Meta = {
   title: "Example/Button",

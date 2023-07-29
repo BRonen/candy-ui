@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/vue3";
 
-import Test from "ui/src/components/Test.vue";
+import Test from "@bronen/candy-ui/src/components/Test.vue";
 
 const meta: Meta = {
   title: "Example/Test",
