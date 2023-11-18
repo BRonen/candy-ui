@@ -4,6 +4,9 @@
     "emitDeclarationOnly": true,
     "outDir": "./dist",
     "moduleResolution": "node",
+    "types": [
+      "vite/client",
+    ]
   },
   "include": ["src"]
 }
