@@ -5,12 +5,10 @@
   "repository": "https://github.com/BRonen/candy-ui",
   "author": "Brenno Rodrigues <brennopereira6@gmail.com>",
   "scripts": {
-    "ui:build": "turbo run build --filter=@bronen/candy-ui",
-    "ui:lint": "turbo run lint --filter=@bronen/candy-ui",
     "build": "turbo run build",
     "lint": "turbo run lint",
     "dev": "turbo run dev",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,vue,md}\""
   },
   "devDependencies": {
     "@turbo/gen": "^1.10.16",
