@@ -1,0 +1,25 @@
+{
+    "name": "@bronen/candy-theme",
+    "version": "0.0.1",
+    "license": "MIT",
+    "type": "module",
+    "repository": "https://github.com/BRonen/candy-ui",
+    "author": "Brenno Rodrigues <brennopereira6@gmail.com>",
+    "files": [
+        "dist"
+    ],
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "main": "dist/index.js",
+    "scripts": {
+        "lint": "eslint \"**/*.ts*\"",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "eslint-config-custom": "workspace:*",
+        "tsconfig": "workspace:*",
+        "typescript": "^4.9.5",
+        "unocss": "^0.57.5"
+    }
+}
