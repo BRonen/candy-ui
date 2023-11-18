@@ -1,6 +1,7 @@
 {
   "name": "docs",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "lint": "vue-tsc --noEmit -p tsconfig.json --composite false && eslint \"**/*.ts*\"",
     "dev": "storybook dev -p 6006",
