@@ -1,7 +1,7 @@
-import { defineConfig } from 'unocss'
+import { defineConfig } from "unocss";
 
-import { CandyThemePreset } from '@bronen/candy-theme';
+import { CandyThemePreset } from "@bronen/candy-theme";
 
 export default defineConfig({
-    presets: [ CandyThemePreset() ]
-})
+  presets: [CandyThemePreset()],
+});

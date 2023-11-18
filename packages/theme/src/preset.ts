@@ -1,9 +1,9 @@
-import { definePreset } from 'unocss';
+import { definePreset } from "unocss";
 
 export const preset = definePreset(() => {
   return {
-    name: 'candy-theme-preset',
+    name: "candy-theme-preset",
     rules: [],
     variants: [],
-  }
+  };
 });
