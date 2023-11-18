@@ -1,14 +1,10 @@
 import type { Meta, StoryObj } from "@storybook/vue3";
-
 import Test from "@bronen/candy-ui/src/components/Test.vue";
 
-const meta: Meta = {
+const meta: Meta<typeof Test> = {
   title: "Example/Test",
   component: Test,
-  tags: ["autodocs"],
-  argTypes: {},
-  args: {},
-};
+} as Meta<typeof Test>;
 
 export default meta;
 

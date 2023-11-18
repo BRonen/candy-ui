@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/vue3";
 
 import Button from "@bronen/candy-ui/src/components/Button.vue";
 
-const meta: Meta = {
+const meta: Meta<typeof Button> = {
   title: "Example/Button",
   component: Button,
   tags: ["autodocs"],
@@ -12,7 +12,7 @@ const meta: Meta = {
     onClick: { action: "clicked" },
   },
   args: { primary: false },
-};
+} as Meta<typeof Button>;
 
 export default meta;
 
